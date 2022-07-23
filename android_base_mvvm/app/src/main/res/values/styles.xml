@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size_button_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Text_Bebas">
+        <item name="fontFamily">@font/louis</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="Text_Bebas_Small" parent="Text_Bebas">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text_Bebas_Medium" parent="Text_Bebas">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text_Bebas_Large" parent="Text_Bebas">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_Bebas_xx_Large" parent="Text_Bebas">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text_Bebas_Huge" parent="Text_Bebas">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+</resources>

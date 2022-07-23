@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin -->
+    <dimen name="margin_xxx_small">1dp</dimen>
+    <dimen name="margin_xx_small">2dp</dimen>
+    <dimen name="margin_x_small">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_x_large">24dp</dimen>
+    <dimen name="margin_xx_large">32dp</dimen>
+    <dimen name="margin_xxx_large">64dp</dimen>
+    <dimen name="margin_huge">128dp</dimen>
+    <!-- Margin -->
+
+    <!-- Size -->
+    <dimen name="size_small">24dp</dimen>
+    <dimen name="size_medium">32dp</dimen>
+    <dimen name="size_large">48dp</dimen>
+    <dimen name="size_x_large">64dp</dimen>
+    <dimen name="size_xx_large">100dp</dimen>
+    <dimen name="size_large_divider">4dp</dimen>
+
+    <dimen name="size_button_text">17sp</dimen>
+    <dimen name="size_button_large_text">24sp</dimen>
+    <dimen name="size_medium_text">16sp</dimen>
+    <dimen name="size_large_text">24sp</dimen>
+    <dimen name="size_huge_text">44sp</dimen>
+    <!-- Size -->
+
+    <!-- CardView -->
+    <dimen name="stroke_small">3dp</dimen>
+    <dimen name="stroke_medium">4dp</dimen>
+    <dimen name="radius_button">4dp</dimen>
+    <dimen name="radius_small">8dp</dimen>
+    <dimen name="radius_large">20dp</dimen>
+    <dimen name="radius_x_large">24dp</dimen>
+    <dimen name="radius_huge">36dp</dimen>
+    <!-- CardView -->
+
+</resources>

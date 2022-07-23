@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExampleApp</string>
+
+    <!-- Common Resources -->
+    <string name="common_error_network_connection">Netzwerkfehler, bitte versuchen Sie es erneut.</string>
+    <string name="common_error_unknown">Unbekannter Fehler.</string>
+    <string name="common_error_timeout">Timeout-Fehler.</string>
+    <!-- Common Resources -->
+</resources>

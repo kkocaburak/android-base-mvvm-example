@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_button.xml" value="0.162" />
+        <entry key="app/src/main/res/drawable/main_background.xml" value="0.136" />
+        <entry key="app/src/main/res/font-v26/font.xml" value="0.228125" />
+        <entry key="app/src/main/res/font/font.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/activity_splash_main.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_battery_list.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.11676798378926039" />
+        <entry key="app/src/main/res/layout/fragment_restaurant_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_restaurant_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_battery.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.5444444444444444" />
+        <entry key="app/src/main/res/layout/item_restaurant.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_restaurant_header.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_restaurant_section_empty.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/view_text_with_icon.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/view_text_with_small_image.xml" value="0.18885869565217392" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="kotlinx.parcelize.Parcelize" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

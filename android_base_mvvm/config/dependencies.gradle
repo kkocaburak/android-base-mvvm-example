@@ -1,0 +1,149 @@
+ext {
+
+    compiler = [
+            java  : JavaVersion.VERSION_11,
+            kotlin: '1.6.10'
+    ]
+
+    android = [
+            minSdk    : 21,
+            targetSdk : 31,
+            compileSdk: 31
+    ]
+
+    application = [
+            id                       : 'com.bkarakoca.exampleapp',
+            versionCode              : 1,
+            versionName              : "0.1.0",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner"
+    ]
+
+    version = [
+            androidKtx           : '1.7.0',
+            arcCoreTesting       : '2.1.0',
+            benManesVersion      : '0.42.0',
+            converterGson        : '2.7.0',
+            constraintLayout     : '2.0.4',
+            coroutines           : '1.5.2',
+            chucker              : '3.5.0',
+            detekt               : '1.20.0-RC1',
+            dagger_hilt          : '2.38.1',
+            espresso             : '3.4.0',
+            fragmentTesting      : '1.4.0',
+            gradle               : '7.1.2',
+            gson                 : '2.8.7',
+            glide                : '4.12.0',
+            okhttp               : '4.9.1',
+            moshi                : '1.12.0',
+            moshiLazyAdapter     : '2.2',
+            navigation           : '2.3.5',
+            lifecycle            : '2.4.0',
+            lifecycleExtensions  : '2.2.0',
+            ok2curl              : '0.7.0',
+            jacoco               : '0.8.7',
+            junitJacocoPlugin    : '0.16.0',
+            ktlint               : '0.44.0',
+            jltschKtlintPlugin   : '10.2.1',
+            jUnit                : '4.13.2',
+            mockk                : '1.12.0',
+            material             : '1.6.1',
+            preference           : '1.1.1',
+            roomVersion          : '2.4.2',
+            retrofit             : '2.9.0',
+            robolectric          : '4.6.1',
+            spotless             : '6.1.0',
+            viewPager2           : '1.0.0',
+            timber               : '5.0.1',
+            testCore             : '1.4.0',
+            testExtJunit         : '1.1.3',
+            testRules            : '1.4.0',
+    ]
+
+    dependency = [
+            kotlinn = [
+                    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$compiler.kotlin",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version.coroutines",
+                    "org.jetbrains.kotlin:kotlin-reflect:$compiler.kotlin"
+            ],
+
+            androidx = [
+                    "androidx.core:core-ktx:$version.androidKtx",
+                    "androidx.navigation:navigation-fragment-ktx:$version.navigation",
+                    "androidx.navigation:navigation-ui-ktx:$version.navigation",
+                    "androidx.constraintlayout:constraintlayout:$version.constraintLayout",
+                    "androidx.preference:preference-ktx:$version.preference"
+            ],
+
+            lifecycle = [
+                    "androidx.lifecycle:lifecycle-runtime-ktx:$version.lifecycle",
+                    "androidx.lifecycle:lifecycle-extensions:$version.lifecycleExtensions",
+                    "androidx.lifecycle:lifecycle-viewmodel-ktx:$version.lifecycle",
+                    "androidx.lifecycle:lifecycle-livedata-ktx:$version.lifecycle",
+            ],
+
+            dagger = [
+                    "com.google.dagger:hilt-android:$version.dagger_hilt",
+            ],
+
+            common = [
+                    "com.github.bumptech.glide:glide:$version.glide",
+                    "com.jakewharton.timber:timber:$version.timber"
+            ],
+
+            commonKapt = [
+                    "androidx.lifecycle:lifecycle-common-java8:$version.lifecycle",
+                    "com.google.dagger:hilt-android-compiler:$version.dagger_hilt",
+                    "androidx.databinding:databinding-compiler:$version.gradle"
+            ],
+
+            network = [
+                    "com.squareup.retrofit2:retrofit:$version.retrofit",
+                    "com.squareup.okhttp3:logging-interceptor:$version.okhttp",
+                    "com.github.mrmike:ok2curl:$version.ok2curl",
+                    "com.google.code.gson:gson:$version.gson",
+                    "com.squareup.retrofit2:converter-gson:$version.converterGson",
+
+            ],
+
+            commonTest = [
+                    "junit:junit:$version.jUnit",
+                    "androidx.arch.core:core-testing:$version.arcCoreTesting",
+                    "androidx.test:core:$version.testCore",
+                    "org.robolectric:robolectric:$version.robolectric",
+                    "androidx.test.ext:junit:$version.testExtJunit",
+                    "org.jetbrains.kotlinx:kotlinx-coroutines-test:$version.coroutines",
+                    "io.mockk:mockk:$version.mockk",
+                    "com.squareup.okhttp3:mockwebserver:$version.okhttp"
+            ],
+
+            material = [
+                    "com.google.android.material:material:$version.material"
+            ],
+
+            commonInstrumentationTest = [
+                    "androidx.navigation:navigation-testing:$version.navigation",
+                    "androidx.test.espresso:espresso-core:$version.espresso",
+                    "androidx.test.ext:junit:$version.testExtJunit",
+                    "androidx.test:rules:$version.testRules",
+                    "io.mockk:mockk-android:$version.mockk"
+            ],
+
+            commonDebug = [
+                    "androidx.fragment:fragment-testing:$version.fragmentTesting"
+            ],
+
+            roomImplementation = [
+                    "androidx.room:room-runtime:$version.roomVersion",
+                    "androidx.room:room-ktx:$version.roomVersion"
+            ],
+
+            roomKapt = [
+                    "androidx.room:room-compiler:$version.roomVersion"
+            ],
+
+            roomAnnotationProcessor = [
+                    "androidx.room:room-compiler:$version.roomVersion"
+            ]
+    ]
+
+}
